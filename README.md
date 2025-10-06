@@ -2,9 +2,11 @@
 
 This repository contains all the training and inference scripts, along with the dataset used for experimentation. The `README.md` provides all the steps required to reproduce the results presented.
 
+Paper: CompressNet, [Yash Sengupta](https://github.com/yashsengupta19), [Aravind Voggu](https://github.com/zeroby0), [Dr. Madhav Rao](https://www.iiitb.ac.in/faculty/madhav-rao)
+
 ---
 
-## 🚀 Setting Up the Environment
+## Setting Up the Environment
 
 All dependencies have been listed in the `pyproject.toml` file inside the `uv-3.9` folder.  
 You can install them using:
@@ -12,7 +14,7 @@ You can install them using:
 ```
 uv lock
 ```
-## 📂 Downloading the Dataset
+## Downloading the Dataset
 The dataset used is [RAISE6k](https://loki.disi.unitn.it/RAISE/getFile.php?p=6k).
 
 Steps:
@@ -21,7 +23,7 @@ Steps:
 * Convert the .TIF images into .png format using any image editor. 
     (This is done to allow faster processing.)
 
-## 🔄 Training Pipeline
+## Training Pipeline
 
 The entire training process is divided into **five steps**:
 
