@@ -1,0 +1,17 @@
+[project]
+name = "yash"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "==3.9.*"
+dependencies = [
+    "numpy>=1.26.4",
+    "pillow>=11.3.0",
+    "scipy>=1.13.1",
+    "tensorflow[and-cuda]==2.15.1",
+    "tensorflow-model-optimization==0.8",
+    "tf-keras==2.15",
+    "tflite-runtime",
+    "toml>=0.10.2",
+]
+
